@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "preinstall": ["npm install pm2 -g", "pm2 link eeahvtzx1td5nn6 65xm1gkeh8slwtt"],
+    "preinstall": "npm install pm2 -g",
+    "install": "pm2 link eeahvtzx1td5nn6 65xm1gkeh8slwtt",
     "start": "pm2 start app.js -i max --attach"
   },
   "author": "",
