@@ -6,7 +6,7 @@
   "scripts": {
     "preinstall": "npm install pm2 -g",
     "install": "pm2 link eeahvtzx1td5nn6 65xm1gkeh8slwtt",
-    "start": "pm2 start app.js -i max --attach"
+    "start": "pm2 start server.js -i max --attach --name 'demobaas-api'"
   },
   "author": "",
   "license": "ISC",
